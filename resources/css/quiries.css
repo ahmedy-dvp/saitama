@@ -1,0 +1,182 @@
+
+
+
+/* big tablet 1200px (widths smaller than the 1140 row) */
+
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+    font-size: 80%;
+}
+    .btn:link,
+    .btn:visited {
+        margin-left: 230px;
+        padding: 7px 30px;
+    }
+    .logo {
+    height: 80px;
+    width: auto;
+   
+    
+}
+    .main-nav {
+    font-size: 100%;
+    margin-top: 45px;    
+     
+}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+    margin-left: 50px;
+        
+}
+    h2 {
+    font-size: 160%;
+    
+}
+    .box p {
+    font-size: 80%;
+    
+}
+.box i {
+
+    font-size: 250%;
+    
+}
+    .row {
+        margin: 0 40px;
+    }
+    
+    .box {
+        width: 200px;
+        margin-left: 70px;
+    }
+    h1 {
+        width: 600px;
+    }
+    h3 {
+        font-size: 105%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+input[type=name],
+input[type=email],
+textarea {
+    width: 100%;
+}
+    cite {
+        font-size: 25px;
+    }
+    
+}
+   
+
+/* small tablet to big tablet:from 768 to 1023 px */
+@media only screen and (max-width:1023px) {
+    .hero-text-box {
+    font-size: 70%;
+}
+    h1 {
+        margin-left: 60px;
+    }
+    .main-nav {
+        font-size: 70%;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+    margin-left: 30px;
+        
+}
+    h2 {
+        font-size: 128%;
+    }
+    h3 {
+        font-size: 90%;
+    }
+    .box p {
+    font-size: 70%;
+    
+}
+.box i {
+
+    font-size: 200%;
+    
+}
+    .box {
+        width: 170px;
+        margin-left: 30px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+input[type=name],
+input[type=email],
+textarea {
+    width: 100%;
+}
+    cite {
+        font-size: 15px;
+        width: 200px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+/* small phones to small tablets: from 481 to 767 px */
+@media only screen and (max-width:767px) {
+    
+    
+    .hero-text-box {
+    font-size: 60%;
+}
+    h1 {
+        margin-left: 240px;
+    }
+    .btn:link,
+    .btn:visited {
+        margin-left: 400px;
+        padding: 3px 20px;
+    }
+    .main-nav {
+        font-size: 80%;
+         margin-top: 36px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+    margin-left: 10px;
+       
+        
+}
+    .logo {
+    height: 70px;
+    width: auto;
+   
+    
+}
+    .contact-form {
+        width: 100%;
+    }
+input[type=name],
+input[type=email],
+textarea {
+    width: 100%;
+}
+    
+
+.box {
+        width: 250px;
+        margin-left: 0px;
+    }
+}
+
+
+
+/* small phones: from 0 to 480*/
+@media only screen and (max-width:400px) {
+    section { padding: 25px 0;}
+    .contact-form {width: 100%}
+}
